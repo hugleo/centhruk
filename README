@@ -1,0 +1,10 @@
+- It's not a full livestatus implementation for thruk. 
+- It is the minimum for the aNag mobile software to be used with Centreon
+- It seems to be working but it's still an early implementation
+
+- INSTALATION -
+execute install.sh
+configure Centreon mysql credentials in /etc/centhruk.conf
+enable and start the service:
+systemctl enable centhruk.service
+systemctl start centhruk.service
